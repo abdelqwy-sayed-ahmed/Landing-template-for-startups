@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+
 const Hero = () => {
   const link="https://github.com/abdelqwy-sayed-ahmed/landing"
   return (
-    <div className="hero">
-      <div className="section-one">
+    <div className="hero " data-aos="zoom-in">
+      <div className="section-one"  >
         <h1 className="heading">Landing template for <span>startups</span></h1>
         <p className="sub-heading">Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
       </div>

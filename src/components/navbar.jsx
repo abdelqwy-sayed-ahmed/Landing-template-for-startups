@@ -7,9 +7,9 @@ const NavBar = () => {
     setIsOpen(!isOPen)
   }
   return (
-    <div className="nav">
-      <div className="toggle">
-        <div className="logo">
+    <div className="nav  " data-aos="fade-up">
+      <div className="toggle ">
+        <div className="logo ">
           <img src={logo} alt="logo" className="logo" />
         </div>
         <div className="icon">
@@ -17,7 +17,7 @@ const NavBar = () => {
         </div>
       </div>
           <div>
-            <ul className={`nav-list ${!isOPen?"expanded":""}`}>
+            <ul className={`nav-list  ${!isOPen?"expanded":""}`}>
               <li className="nav-item"><Link to="/" onClick={handlexpand}>Documentation</Link></li>
               <li className="nav-item"><Link to="/" className="btn-primary" onClick={handlexpand}>Sign up</Link></li>
             </ul>

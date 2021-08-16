@@ -145,6 +145,7 @@ body {
     max-height: 100%;
     background-color: var(--color-background-primary);
   }
+
   .nav-item a {
     color: var(--color-body-secondary);
   }
