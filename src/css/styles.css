@@ -43,7 +43,6 @@ body {
   line-height: 1.5;
   background-color: var(--color-background-primary);
   color: var(--color-body-secondary);
-  margin: 0;
 }
 @media screen and (min-width: 1024px) {
   h1 {
@@ -209,5 +208,24 @@ body {
   .btn-view {
     padding: 1.5rem 4rem;
     font-size: 1.6rem;
+  }
+}
+
+/* section-four */
+.section-four {
+  text-align: center;
+  margin: 0 2rem;
+}
+.section-four p {
+  margin-top: 0;
+  padding-top: 1.5rem;
+}
+.section-four h2 {
+  margin-bottom: 0;
+}
+@media screen and (min-width: 768px) {
+  .section-four {
+    text-align: center;
+    margin: 0 20rem;
   }
 }

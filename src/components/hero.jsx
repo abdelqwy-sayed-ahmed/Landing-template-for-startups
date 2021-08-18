@@ -4,6 +4,8 @@ import videoImg from '../assets/images/video.jpg'
 import Modal from 'react-modal';
 import video from '../assets/video.mp4'
 
+
+
 const Hero = () => {
   const [isOpen,setOpen]=useState(false)
   const link = "https://github.com/abdelqwy-sayed-ahmed/landing"
@@ -18,7 +20,8 @@ const Hero = () => {
     transform: 'translate(-50%, -50%)',
     
    
-  },
+    },
+    
 };
   return (
     <div className="hero ">
@@ -31,17 +34,26 @@ const Hero = () => {
         <Link to={{pathname:link}} className="btn-view"  target="_blank" >View on Github</Link>
       </div>
       <div className="section-three" data-aos="zoom-in-up" data-aos-duration="3000">
-        <img src={videoImg} alt="hero-video" style={{ padding: "2rem 5rem" }} onClick={() => setOpen(true)} />
+        <img src={videoImg} alt="hero-video" style={{ padding: "2rem 5rem" ,cursor:"pointer" }} onClick={() => setOpen(true)} />
         <Modal
         isOpen={isOpen}
         onRequestClose={() => setOpen(false)}
         style={customStyles}
         ariaHideApp={false}
         >
-          <video src={video} autoPlay controls style={{width:'100%', maxHeight:'80vh'}}></video>
+          {/* internal video */}
+
+          <video src={video} autoPlay controls style={{ width: '100%', maxHeight: '80vh' }}></video>
+
+       
+          
         
         </Modal>
         
+      </div>
+      <div className="section-four" data-aos="zoom-in-up" data-aos-duration="3000">
+        <h2>Build up the whole picture</h2>
+        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.</p>
       </div>
     </div>
   );
