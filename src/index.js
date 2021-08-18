@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import 'font-awesome/css/font-awesome.css'
+import 'aos/dist/aos.css'
 import './css/normalize.css'
 import './css/styles.css'
 import App from './App';

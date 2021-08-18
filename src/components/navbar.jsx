@@ -7,7 +7,7 @@ const NavBar = () => {
     setIsOpen(!isOPen)
   }
   return (
-    <div className="nav  " data-aos="fade-up">
+    <div className="nav">
       <div className="toggle ">
         <div className="logo ">
           <img src={logo} alt="logo" className="logo" />
