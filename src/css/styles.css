@@ -8,6 +8,7 @@ img {
 *,
 *::after,
 *::before {
+  margin: 0;
   box-sizing: border-box;
 }
 :root {
@@ -54,6 +55,23 @@ body {
   }
   h3 {
     font-size: 2.4rem;
+  }
+}
+.grid {
+  display: grid;
+}
+@media screen and (min-width: 768px) {
+  .col-md-2 {
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .col-md-3 {
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -160,7 +178,7 @@ body {
 /* section-one */
 .section-one {
   text-align: center;
-  padding: 2rem 7rem;
+  padding: 7rem 6rem 2rem 6rem;
 }
 .heading span {
   color: var(--color-primary);
@@ -168,7 +186,9 @@ body {
 .heading,
 .sub-heading {
   margin: 0;
-  padding-bottom: 2rem;
+}
+.sub-heading {
+  padding-top: 2.2rem;
 }
 @media screen and (min-width: 768px) {
   .sub-heading {
@@ -180,6 +200,7 @@ body {
 /* section-two */
 .section-two {
   text-align: center;
+  padding-bottom: 2rem;
 }
 
 .btn-view,
@@ -214,10 +235,9 @@ body {
 /* section-four */
 .section-four {
   text-align: center;
-  margin: 0 2rem;
+  padding: 4rem;
 }
 .section-four p {
-  margin-top: 0;
   padding-top: 1.5rem;
 }
 .section-four h2 {
@@ -228,4 +248,22 @@ body {
     text-align: center;
     margin: 0 20rem;
   }
+}
+
+/* feature */
+
+.card {
+  padding: 4rem 6rem;
+  text-align: center;
+}
+.feature-icon {
+  margin: 0 auto;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  fill: var(--color-body-primary);
+  background-color: var(--color-primary);
+}
+.feature h3 {
+  padding: 1.8rem;
 }

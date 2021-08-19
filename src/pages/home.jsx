@@ -1,4 +1,5 @@
 import React from 'react';
+import Feature from '../components/feature';
 import Hero from '../components/hero';
 // import Video from '../components/hero-vid';
 import NavBar from '../components/navbar';
@@ -8,6 +9,7 @@ const Home = () => {
     <div className="container">
       <NavBar />
       <Hero />
+      <Feature/>
    
       
     </div>
