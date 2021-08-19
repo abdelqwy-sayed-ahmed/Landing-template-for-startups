@@ -50,8 +50,6 @@ const Feature = () => {
           <h3>Robust Workflow</h3>
           <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
         </div>
-      
-      
     </div>
   );
 };

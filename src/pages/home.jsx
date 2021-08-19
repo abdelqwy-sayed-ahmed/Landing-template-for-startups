@@ -1,15 +1,17 @@
 import React from 'react';
 import Feature from '../components/feature';
 import Hero from '../components/hero';
-// import Video from '../components/hero-vid';
 import NavBar from '../components/navbar';
+import Workflow from '../components/workflow';
 
 const Home = () => {
   return (
     <div className="container">
       <NavBar />
       <Hero />
-      <Feature/>
+      <Feature />
+      <Workflow />
+      
    
       
     </div>
