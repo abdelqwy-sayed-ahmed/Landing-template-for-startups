@@ -2,6 +2,7 @@ import React from 'react';
 import Feature from '../components/feature';
 import Hero from '../components/hero';
 import NavBar from '../components/navbar';
+import Testimonial from '../components/testimonial';
 import Workflow from '../components/workflow';
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
       <Hero />
       <Feature />
       <Workflow />
+      <Testimonial/>
       
    
       

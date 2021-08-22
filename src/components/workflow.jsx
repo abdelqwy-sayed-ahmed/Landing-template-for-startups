@@ -9,7 +9,7 @@ const Workflow = () => {
         <h2>Workflow that just works</h2>
         <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.</p>
       </div>
-      <div className="media grid col-md-2">
+      <div className="media">
         <div className="media-img" data-aos="fade-left" data-aos-duration="1000">
           <img src={features1} alt="media1" />
         </div>
@@ -21,7 +21,7 @@ const Workflow = () => {
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
       </div>
-      <div className="media  grid col-md-2">
+      <div className="media  ">
         <div className="media-img" data-aos="fade-right" data-aos-duration="1500">
           <img src={features2} alt="media2" />
         </div>
@@ -33,7 +33,7 @@ const Workflow = () => {
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
       </div>
-      <div className="media grid col-md-2">
+      <div className="media ">
         <div className="media-img" data-aos="fade-left" data-aos-duration="2000">
           <img src={features3} alt="media3" />
         </div>

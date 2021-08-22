@@ -7,7 +7,7 @@ import f5 from '../assets/images/feature5.svg'
 import f6 from '../assets/images/feature6.svg'
 const Feature = () => {
   return (
-    <div className="feature grid col-md-2 col-md-3"  >
+    <div className="feature "  >
         <div className="card" data-aos="fade-right" data-aos-duration="1000">
           <div className="feature-icon" >
             <img src={f1} alt="feature1" />
