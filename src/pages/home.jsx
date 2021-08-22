@@ -1,4 +1,5 @@
 import React from 'react';
+import Email from '../components/email';
 import Feature from '../components/feature';
 import Hero from '../components/hero';
 import NavBar from '../components/navbar';
@@ -12,7 +13,8 @@ const Home = () => {
       <Hero />
       <Feature />
       <Workflow />
-      <Testimonial/>
+      <Testimonial />
+      <Email/>
       
    
       
