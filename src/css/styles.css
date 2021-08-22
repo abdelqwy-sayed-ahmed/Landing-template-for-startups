@@ -399,11 +399,10 @@ body {
 /* email */
 .email {
   background-color: #5658dd;
-  border: 1px solid;
-  border-color: #5658dd;
+  border: 0;
   border-radius: 5px;
-  margin: 2.5rem;
-  padding: 5rem 2rem;
+  margin: 4rem 2rem;
+  padding: 5rem;
   text-align: center;
 }
 .form-group {
@@ -416,10 +415,11 @@ body {
   border: 0;
   outline: 0;
   border-radius: 5px;
+  padding-left: 2rem;
+  background-color: #eceded;
 }
 .form-control::placeholder {
   font-size: 1.6rem;
-  padding: 2rem;
 }
 .arrow {
   height: 15px;
@@ -427,6 +427,9 @@ body {
   position: absolute;
   right: 30px;
   top: 17px;
+}
+.email-bg {
+  width: 200px;
 }
 @media screen and (min-width: 768px) {
   .email {
@@ -438,5 +441,67 @@ body {
   }
   .form-group {
     margin-top: 0;
+  }
+}
+
+/* footer */
+.footer {
+  text-align: center;
+  margin-top: 7rem;
+}
+.logo-footer {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 2rem;
+}
+.social-icons {
+  width: 20px;
+  height: 20px;
+  margin: 0 3rem;
+}
+
+@media screen and (min-width: 768px) {
+  .section1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  .logo-footer {
+    margin-left: 3rem;
+  }
+}
+
+.footer-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-items li {
+  list-style: none;
+  padding: 2rem;
+}
+.footer-items li a {
+  text-decoration: none;
+  color: var(--color-body-secondary);
+  font-size: 1.5rem;
+}
+.footer-items li a:hover {
+  color: var(--color-body-primary);
+}
+.reserved p {
+  font-size: 1.5rem;
+  padding: 2rem 4rem;
+}
+
+@media screen and (min-width: 768px) {
+  .section2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  .section2:nth-of-type(even) .footer-list {
+    order: 1;
   }
 }

@@ -8,8 +8,8 @@ const Testimonial = () => {
         <h2>Customer testimonials</h2>
         <p>Vitae aliquet nec ullamcorper sit amet risus nullam eget felis semper quis lectus nulla at volutpat diam ut venenatis tellus—in ornare.</p>
       </div>
-      <div className="testimonial-row  ">
-        <div className="testimonial-card">
+      <div className="testimonial-row ">
+        <div className="testimonial-card"  data-aos="fade-up" data-aos-duration="1000">
           <div className="testimonial-card-content">
             — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat.
           </div>
@@ -17,7 +17,7 @@ const Testimonial = () => {
             <p>Roman Level <span className="slash">/</span> <Link to="/" className="app-name">AppName</Link></p>
           </div>
         </div>
-        <div className="testimonial-card">
+        <div className="testimonial-card"  data-aos="fade-up" data-aos-duration="1200">
           <div className="testimonial-card-content">
             — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat.
           </div>
@@ -25,7 +25,7 @@ const Testimonial = () => {
             <p>Roman Level <span className="slash">/</span> <Link to="/" className="app-name">AppName</Link></p>
           </div>
         </div>
-        <div className="testimonial-card">
+        <div className="testimonial-card"  data-aos="fade-up" data-aos-duration="1500">
           <div className="testimonial-card-content">
             — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat.
           </div>
