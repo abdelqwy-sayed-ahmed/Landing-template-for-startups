@@ -10,10 +10,10 @@ const Workflow = () => {
         <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.</p>
       </div>
       <div className="media">
-        <div className="media-img" data-aos="fade-left" data-aos-duration="1000">
+        <div className="media-img" data-aos="zoom-in" data-aos-duration="1000">
           <img src={features1} alt="media1" />
         </div>
-        <div className="media-content" data-aos="fade-right" data-aos-duration="1000">
+        <div className="media-content" data-aos="zoom-in" data-aos-duration="1000">
           <div className="media-light">
          <p>LIGHTNING FAST WORKFLOW</p>
         </div>
@@ -22,10 +22,10 @@ const Workflow = () => {
         </div>
       </div>
       <div className="media  ">
-        <div className="media-img" data-aos="fade-right" data-aos-duration="1500">
+        <div className="media-img" data-aos="zoom-in" data-aos-duration="1500">
           <img src={features2} alt="media2" />
         </div>
-        <div className="media-content" data-aos="fade-left" data-aos-duration="1500">
+        <div className="media-content" data-aos="zoom-in" data-aos-duration="1500">
           <div className="media-light">
          <p>LIGHTNING FAST WORKFLOW</p>
         </div>
@@ -34,10 +34,10 @@ const Workflow = () => {
         </div>
       </div>
       <div className="media ">
-        <div className="media-img" data-aos="fade-left" data-aos-duration="2000">
+        <div className="media-img" data-aos="zoom-in" data-aos-duration="2000">
           <img src={features3} alt="media3" />
         </div>
-        <div className="media-content" data-aos="fade-right" data-aos-duration="2000">
+        <div className="media-content" data-aos="zoom-in" data-aos-duration="2000">
           <div className="media-light">
          <p>LIGHTNING FAST WORKFLOW</p>
         </div>

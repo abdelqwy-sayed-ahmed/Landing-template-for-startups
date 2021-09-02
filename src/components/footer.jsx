@@ -3,9 +3,10 @@ import logo from '../assets/images/logo.png'
 import facebook from '../assets/images/Facebook.svg'
 import instagram from '../assets/images/Instagram.svg'
 import twitter from '../assets/images/Twitter.svg'
+import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
-    <div className="footer"  data-aos="fade-left" data-aos-duration="2000">
+    <div className="footer"  data-aos="fade-right" data-aos-duration="2000">
       <div className="section1">
           <img src={logo} alt="logo" className="logo-footer" />
         <div className="social">
@@ -18,16 +19,16 @@ const Footer = () => {
         <div className="footer-list">
           <ul className="footer-items">
             <li>
-              <a href="/">Contact</a>
+              <Link to="/">Contact</Link>
             </li>
             <li>
-              <a href="/">About us</a>
+              <Link to="/">About us</Link>
             </li>
             <li>
-              <a href="/">FAQ's</a>
+              <Link to="/">FAQ's</Link>
             </li>
             <li>
-              <a href="/">Support</a>
+              <Link to="/">Support</Link>
             </li>
           </ul>
         </div>

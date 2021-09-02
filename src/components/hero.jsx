@@ -5,19 +5,19 @@ import Modal from 'react-modal';
 import video from '../assets/video.mp4'
 
 
-
 const Hero = () => {
   const [isOpen,setOpen]=useState(false)
   const link = "https://github.com/abdelqwy-sayed-ahmed/landing"
-  // const videoUrl="https://player.vimeo.com/video/174002812"
+
   const customStyles = {
   content: {
     top: '50%',
-    left: '50%',
+    left: '40%',
     right: 'auto',
     bottom: 'auto',
     marginRight: '-50%',
-    transform: 'translate(-50%, -50%)',
+    
+    transform: 'translate(-40%, -50%)',
     
    
     },
@@ -41,13 +41,7 @@ const Hero = () => {
         style={customStyles}
         ariaHideApp={false}
         >
-          {/* internal video */}
-
           <video src={video} autoPlay controls style={{ width: '100%', maxHeight: '80vh' }}></video>
-
-       
-          
-        
         </Modal>
         
       </div>
