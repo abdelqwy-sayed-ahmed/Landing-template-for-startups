@@ -19,16 +19,16 @@ const Footer = () => {
         <div className="footer-list">
           <ul className="footer-items">
             <li>
-              <Link to="/">Contact</Link>
+              <a href="/">Contact</a>
             </li>
             <li>
-              <Link to="/">About us</Link>
+              <a href="/">About us</a>
             </li>
             <li>
-              <Link to="/">FAQ's</Link>
+              <a href="/">FAQ's</a>
             </li>
             <li>
-              <Link to="/">Support</Link>
+              <a href="/">Support</a>
             </li>
           </ul>
         </div>

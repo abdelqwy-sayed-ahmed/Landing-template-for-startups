@@ -479,12 +479,12 @@ body {
 }
 .footer-items li {
   list-style: none;
-  padding: 2rem;
+  padding: 2rem 1rem;
 }
 .footer-items li a {
   text-decoration: none;
   color: var(--color-body-secondary);
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 .footer-items li a:hover {
   color: var(--color-body-primary);
